@@ -11,7 +11,7 @@ def fizzbuzz(int)
     False
   elseif int % 3 != 0
     False
-  else int % 3 && 5 ==0
+  else int % 3 && 5 == 0
     "Fizzbuzz"
   end
 
