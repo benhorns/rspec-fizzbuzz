@@ -5,8 +5,14 @@ def fizzbuzz(int)
 
   if int % 3 == 0 # if the number int is divisible by 3
     "Fizz" # Go fizz    "Buzz"
-  else int % 5 == 0
+  elseif int % 5 == 0
     "Buzz"
+  elseif int % 5 != 0
+    False
+  elseif int % 3 != 0
+    False
+  else int % 3 && 5 ==0
+    "Fizzbuzz"
   end
 
 end
