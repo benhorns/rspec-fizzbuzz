@@ -6,8 +6,10 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
   elseif int % 5 == 0
     "Buzz"
-  elseis int % 5,3 == 0
+  elseif int % 5,3 == 0
     "Fizzbuzz"
+  else
+    "ok"
   end
 
 end
