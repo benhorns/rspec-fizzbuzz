@@ -7,5 +7,5 @@ def fizzbuzz(int)
   elseif int % 5 == 0 #if the number int is divisible by 5
     "Buzz"
   end
-   
+
 end
